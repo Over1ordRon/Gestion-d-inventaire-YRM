@@ -1,7 +1,7 @@
 package testpackage.model.errors;
 
 public class MinimumException extends Exception{
-	public Minimum() {
+	public MinimumException() {
 	}
 
 	public MinimumException(String message) {

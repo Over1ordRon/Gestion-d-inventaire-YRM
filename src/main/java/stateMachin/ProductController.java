@@ -43,13 +43,13 @@ public class ProductController extends BaseController {
 
     // Show details view
     private void showDetails() {
-        DetailsController detailsController = new DetailsController(stateMachine, this);
+        DetailsController detailsController = (DetailsController) stateMachine.getController(DetailsController.class);
         stateMachine.changeState(detailsController);
     }
 
     // Show popup view
     private void showPopUp() {
-        PopUpController popUpController = new PopUpController(stateMachine, this);
+        PopUpController popUpController = (PopUpController) stateMachine.getController(PopUpController.class);
         stateMachine.changeState(popUpController);
     }
 
