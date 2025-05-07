@@ -17,6 +17,7 @@ public class ControllerStateMachine {
     // Scene cache to avoid recreating scenes
     private Scene scene;
 
+
     public ControllerStateMachine(Stage stage) {
         this.stage = stage;
         // Create a single scene that will be reused
