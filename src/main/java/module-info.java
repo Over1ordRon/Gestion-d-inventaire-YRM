@@ -14,4 +14,4 @@ module testpackage.gestiondinventaireyrm {
     requires java.sql;
 
     exports stateMachin to javafx.graphics;
-}
+}//

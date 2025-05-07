@@ -18,7 +18,7 @@ public class FXMLLoaderUtil {
             URL fxmlUrl = controller.getClass().getResource(fxmlPath);
             if (fxmlUrl == null) {
                 throw new IOException("Cannot find FXML file: " + fxmlPath);
-            }
+            }//
 
             FXMLLoader loader = new FXMLLoader(fxmlUrl);
             loader.setController(controller);
