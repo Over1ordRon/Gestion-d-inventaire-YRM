@@ -8,7 +8,7 @@ import javafx.scene.layout.AnchorPane;
 
 public class BoneController extends BaseController {
      private boolean initialized = false;
-
+     private boolean is;
     // Default constructor for FXML loader
     public BoneController() {
         super();
